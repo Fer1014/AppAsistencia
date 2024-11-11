@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_inicio"
+            android:icon="@drawable/house"
+            android:title="Inicio"
+            />
+        <item android:id="@+id/nav_perfil"
+            android:icon="@drawable/house"
+            android:title="Mi perfil"
+            />
+        <item android:id="@+id/nav_reportes"
+            android:icon="@drawable/reports"
+            android:title="Historial de Asistencias"
+            />
+        <item android:id="@+id/nav_horario"
+            android:icon="@drawable/reports"
+            android:title="Horario"
+            />
+        <item android:id="@+id/nav_resumenasi"
+            android:icon="@drawable/reports"
+            android:title="Resumen de Asistencias"
+            />
+        <item android:id="@+id/nav_horsem"
+            android:icon="@drawable/reports"
+            android:title="Horario semanal"
+            />
+    </group>
+    <item
+        android:title="">
+        <menu>
+            <item android:id="@+id/nav_salir"
+                android:icon="@drawable/logout"
+                android:title="Salir"
+                />
+        </menu>
+    </item>
+</menu>
